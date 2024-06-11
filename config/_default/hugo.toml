@@ -39,7 +39,9 @@ unsafe = true
 
 [params]
 author = "Dustin Michels"
-# bio = "Dispatches on urban planning, emanating from Somerville." 
+
+bio = "Dustin's dispatches on urban planning: thoughts, observations, projects, and learnings."
+
 copyright = "" 
 description = "Dispatches on urban planning, emanating from Somerville." 
 enableComments = true # To enable comments, you may need to set `disqusShortname`
@@ -50,6 +52,6 @@ math = false # To enable math typesetting , you could set `math: true`, default 
 showPowerBy = false # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
 showToc = true # To enable table of content, you could set `showToc: true`, default is `false`
 
-avatarLink = "http://localhost:1313/"
+# avatarLink = "http://localhost:1313/"
 
 customCSS = ["css/custom.css"]
