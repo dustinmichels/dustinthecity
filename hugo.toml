@@ -1,5 +1,4 @@
-baseURL = "https://dustinthe.city"
-# baseURL = "https://dustinthe.city"
+baseURL = "https://dustinthe.city/"
 defaultContentLanguage = "en"
 # disqusShortname = "your-disqus-shortname"
 # googleAnalytics = "your-google-analytics-id"
@@ -9,8 +8,6 @@ paginate = 30
 theme = "mini"
 # theme = "paperesque"
 
-# theme = 'github.com/nodejh/hugo-theme-mini'
-# themesDir = "../../"
 title = "Dust In The City"
 
 # [permalinks]
