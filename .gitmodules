@@ -2,3 +2,7 @@
 path = themes/paperesque
 url = https://github.com/capnfabs/paperesque
 branch = mainline
+read
+[submodule "themes/mini"]
+path = themes/mini
+url = https://github.com/nodejh/hugo-theme-mini.git

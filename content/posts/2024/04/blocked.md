@@ -9,4 +9,6 @@ Snapped this image while commuting one morning. This is the constant struggle of
 
 {{< figure src="../images/blocked.jpg" width="400" align="center">}}
 
+<!-- ![Blocked Lanes](../images/blocked.jpg) -->
+
 [To be continued...]

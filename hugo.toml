@@ -1,33 +1,53 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-# theme = "paperesque"
-theme = 'github.com/nodejh/hugo-theme-mini'
-title = 'Dust In The City'
+baseURL = "dustinthe.city"
+defaultContentLanguage = "en"
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+hasCJKLanguage = false
+languageCode = "en-us"
+paginate = 30
+theme = "mini"
+# theme = 'github.com/nodejh/hugo-theme-mini'
+# themesDir = "../../"
+title = "Dust In The City"
 
-# [[params.menu]]
-# name = "blog"
-# url = "posts/"
+# [permalinks]
+# posts = "/posts/:title/"
 
-# [[params.menu]]
-# name = "tags"
-# url = "tags/"
+# Hugo Configure Markup
+# More info: https://gohugo.io/getting-started/configuration-markup#
 
-# [[params.menu]]
-# name = "about"
-# url = "about/"
+[markup.highlight]
+guessSyntax = true
+style = "emacs"
 
-# [[params.menu]]
-# name = "contact"
-# url = "contact/"
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
 
-[[params.topmenu]]
-name = "about"
-url = "about/"
+[markup.goldmark.renderer]
+unsafe = true
 
-# [[params.topmenu]]
-# name = "contact"
-# url = "contact/"
+# Social links in footer, support github,twitter,stackoverflow,facebook
 
-[[params.topmenu]]
-name = "rss"
-url = "posts/index.xml"
+# [social]
+# github = "https://github.com/dustinmichels"
+# stackoverflow = "your-stackoverflow-link"
+# twitter = "your-twitter-link"
+
+# Site parameters
+
+[params]
+author = "Dustin Michels"
+# bio = "Dispatches on urban planning, emanating from Somerville." 
+copyright = "" 
+description = "Dispatches on urban planning, emanating from Somerville." 
+enableComments = true # To enable comments, you may need to set `disqusShortname`
+# enableGoogleAnalytics = true # To enable, you may need to set `googleAnalytics`
+# enableRSS = true # To enable RSS, you could set `enableRSS: true`, default is `true`
+hiddenPostSummaryInHomePage = false # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
+math = false # To enable math typesetting , you could set `math: true`, default is `false`
+showPowerBy = false # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
+showToc = true # To enable table of content, you could set `showToc: true`, default is `false`
+
+customCSS = ["css/custom.css"]
