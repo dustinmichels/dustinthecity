@@ -2,7 +2,7 @@
 title: "Movie: No Hard Feelings"
 date: 2023-10-03
 draft: false
-tags: ["movie", "car"]
+tags: ["movies", "cars"]
 ---
 
 I recently watched Jennifer Lawrence's raunchy comedy _No Hard Feelings_ (2023). I'm sorry to say, it's pretty bad!! However, if you squint and dream a little, you will find a crystal clear anti-car message, which I appreciate.
