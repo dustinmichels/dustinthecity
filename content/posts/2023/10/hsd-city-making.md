@@ -4,13 +4,12 @@ date: 2023-10-24
 tags:
   - HSD
   - cars
-draft: true
+draft: false
 ---
+
 On Tuesday evening, I attended a talk at Harvard School of Design (HSD) delivered by Manuel Salgado, an architect and former head of urban planning on the Lisbon City Council. The topic was "city-making" and "how to intervene as a contemporary architect working in a historical city?"
 
 I enjoyed hearing about Salgado's long and winding career, and his reluctant pivot from architect into public servant, when a seat opened up on the Lisbon City Council and he was encouraged to run.
-
-
 
 ---
 

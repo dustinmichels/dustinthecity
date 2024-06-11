@@ -1,7 +1,7 @@
 ---
 title: Porchfest in Somerville
 date: 2024-05-11
-draft: true
+draft: false
 tags:
   - cars
   - pedestrians

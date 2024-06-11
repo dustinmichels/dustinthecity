@@ -1,7 +1,7 @@
 ---
 title: "The artist as pioneer species"
 date: 2023-10-14
-# draft: true
+draft: true
 tags: ["urban development", "art"]
 ---
 
