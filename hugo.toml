@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-theme = "paperesque"
+# theme = "paperesque"
+theme = 'github.com/nodejh/hugo-theme-mini'
 title = 'Dust In The City'
 
 # [[params.menu]]
