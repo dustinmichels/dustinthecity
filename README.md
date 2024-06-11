@@ -2,15 +2,20 @@
 
 ## Setup
 
-### What I did
-
-Edit config:
-
-```toml
-theme = 'github.com/nodejh/hugo-theme-mini'
-```
+Initial setup:
 
 ```sh
-hugo mod init github.com/dustinmichels/dustinthecity
-hugo mod tidy
+git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
+```
+
+When you re-clone:
+
+```sh
+git submodule update --init --recursive
+```
+
+To update the theme, run:
+
+```sh
+git submodule update --remote --merge
 ```
