@@ -1,0 +1,26 @@
+---
+title: "HSD: City Making"
+date: 2023-10-24
+# draft: true
+tags: ["HSD", "car"]
+---
+
+On Tuesday evening, I attended a talk at Harvard School of Design (HSD) featuring Manuel Salgado. An architect and former head of urban planning on the Lisbon City Council, Salgado discussed "city-making" the question of how to intervene as a contemporary architect working in a historical city?
+
+---
+
+**Notes:**
+
+“New heritage”
+
+Remove cars— sewage system
+
+“Gentrification is the result of globalization”
+
+Relationship with other cities, private car ownership
+
+Regret from revitalized area, lost opportunity to buy cheap housing and maintain as affordable housing
+
+How to balance tourism and affordable housing
+
+7.5 meter motif, allowing team to build all together

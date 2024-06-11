@@ -1,4 +1,32 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 theme = "paperesque"
-title = 'My New Hugo Site'
+title = 'Dust In The City'
+
+# [[params.menu]]
+# name = "blog"
+# url = "posts/"
+
+# [[params.menu]]
+# name = "tags"
+# url = "tags/"
+
+# [[params.menu]]
+# name = "about"
+# url = "about/"
+
+# [[params.menu]]
+# name = "contact"
+# url = "contact/"
+
+[[params.topmenu]]
+name = "about"
+url = "about/"
+
+# [[params.topmenu]]
+# name = "contact"
+# url = "contact/"
+
+[[params.topmenu]]
+name = "rss"
+url = "posts/index.xml"
