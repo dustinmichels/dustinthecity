@@ -50,6 +50,6 @@ math = false # To enable math typesetting , you could set `math: true`, default 
 showPowerBy = false # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
 showToc = true # To enable table of content, you could set `showToc: true`, default is `false`
 
-avatarLink = "."
+avatarLink = "http://localhost:1313/"
 
 customCSS = ["css/custom.css"]
