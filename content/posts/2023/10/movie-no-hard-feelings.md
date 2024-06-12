@@ -21,8 +21,6 @@ In a scene played for laughs, she tries stealing the car right off the tow truck
 
 Then her friend reads her the strange Craigslist ad posted by Percy’s parents: they want someone to "date" their son in exchange for, not cash, but a Buick Regal.
 
-Then her friend reads her the strange Craigslist ad posted by Percy’s parents: they want someone to “date” their son in exchange for, not cash, but a Buick Regal.
-
 The plot is driven forward by the car-dependent society in which the story is set. Maddie is compelled to degrade and prostitute herself to obtain a car so she can make a living. I think all of this is meant to be taken for granted as perfectly ordinary and rational, at least to an American audience. But my question is: what if she didn’t need a car?? What if she could rollerblade to work in safety and joy? What a vivid depiction of the perpetual economic burden of car dependence and the depravity that can ensue!
 
 This movie is pretty bad, and I’m sure its impassioned plea for walkable, bikeable, and transit-oriented communities is strictly accidental. Nevertheless, I am pleased to welcome comrade Jennifer Lawrence and her dumb film to the War on Cars.
