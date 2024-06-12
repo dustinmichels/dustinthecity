@@ -51,7 +51,19 @@ hiddenPostSummaryInHomePage = false # To hidden post summary in home page, you c
 math = false # To enable math typesetting , you could set `math: true`, default is `false`
 showPowerBy = false # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
 showToc = true # To enable table of content, you could set `showToc: true`, default is `false`
-
-# avatarLink = "http://localhost:1313/"
-
+avatarLink = "http://localhost:1313/"
 customCSS = ["css/custom.css"]
+
+
+[[module.mounts]]
+excludeFiles = "_templates/*"
+source = "content/posts"
+target = "content/posts"
+
+
+[imaging]
+resampleFilter = "Box"
+quality = 75
+hint = "photo"
+anchor = "Smart"
+bgColor = "#ffffff"

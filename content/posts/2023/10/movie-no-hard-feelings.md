@@ -17,7 +17,9 @@ I am being a bit cheeky here, but look, the inciting incident for the story is t
 
 In a scene played for laughs, she tries stealing the car right off the tow truck, landing in legal trouble. In a scene played for laughs, she is seen dork-ily rollerblading to work while angry drivers honk their displeasure with her absurd transgression. _What a loser!_
 
-{{< figure src="https://www.thehollywoodnews.com/wp-content/uploads/No-Hard-Feelings-Image-3-In-Cinemas-21-June.jpg" width="350" align="center" alt="Jennifer Lawrence rollerblading to work in 'No Hard Feelings'">}}
+{{< figure src="https://www.thehollywoodnews.com/wp-content/uploads/No-Hard-Feelings-Image-3-In-Cinemas-21-June.jpg" class="pic-m" alt="Jennifer Lawrence rollerblading to work in 'No Hard Feelings'">}}
+
+Then her friend reads her the strange Craigslist ad posted by Percy’s parents: they want someone to "date" their son in exchange for, not cash, but a Buick Regal.
 
 Then her friend reads her the strange Craigslist ad posted by Percy’s parents: they want someone to “date” their son in exchange for, not cash, but a Buick Regal.
 

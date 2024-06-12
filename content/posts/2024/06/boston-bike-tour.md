@@ -1,16 +1,20 @@
 ---
-title: "City Bike Tour with Jonah"
+title: City Bike Tour with Jonah
 date: 2024-06-09
-tags: ["bikes", "boston", "somerville community path"]
+tags:
+  - bikes
+  - boston
+  - somerville
+  - somerville-community-path
 ---
 
 When my friend Jonah visited me this week, I took him on a small but mighty bike tour. We rode-- almost entirely on protected bike paths-- down the Somerville Community Path, past North Point Park, through the North End to Long Wharf, around The Boston Common, and along the Charles River.
 
-{{< figure src="../images/map.jpg" width="400" align="center">}}
+{{< figure src="../images/map.jpg" class="pic-m">}}
 
 Perfect weather. So beautiful, easy and, most importantly, _safe_. The whole time we flew past dispirited drivers trapped in traffic.
 
-{{< figure src="../images/jonah.jpg" width="400" align="center">}}
+{{< figure src="../images/jonah.jpg" class="pic-m">}}
 
 I am so grateful to have friends that love bikes and biking, since I feel so strongly it is the most joyous way to navigate the city.
 

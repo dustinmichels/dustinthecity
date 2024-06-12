@@ -2,12 +2,9 @@
 title: Congestion Pricing in NYC
 date: 2024-06-10
 tags:
-  - congestion
-  - pricing
+  - congestion-pricing
   - NYC
-  - war
-  - on
-  - cars
+  - war-on-cars
 draft: false
 ---
 

@@ -1,8 +1,10 @@
 ---
-title: "The artist as pioneer species"
+title: The artist as pioneer species
 date: 2023-10-14
 draft: true
-tags: ["urban development", "art"]
+tags:
+  - art
+  - urban-development
 ---
 
 In a household budget, art is more of a luxury than a necessity. You need to pay rent and utilities and put food on the table first, and then, if there is room left over, maybe you can think about beatification and art.

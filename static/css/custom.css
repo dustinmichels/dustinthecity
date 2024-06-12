@@ -14,7 +14,17 @@
 .profile h2 {
   font-size: 15px;
   font-style: italic;
-  font-weight: 300;
-  color: #757575;
-  margin-top: 0;
+  /* font-weight: 300; */
+  /* color: #757575; */
+  /* margin-top: 0; */
+}
+
+
+.pic-m {
+  max-width: 400px;
+  /* margin: 0 auto; */
+}
+
+.pic-m img {
+  width: 100%;
 }
