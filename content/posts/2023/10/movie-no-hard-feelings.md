@@ -3,13 +3,15 @@ title: "Movie: No Hard Feelings"
 date: 2023-10-03
 draft: false
 tags: ["movies", "cars"]
+categories: ["film-review"]
+favorite: true
 ---
 
 I recently watched Jennifer Lawrence's raunchy comedy _No Hard Feelings_ (2023). I'm sorry to say, it's pretty bad!! However, if you squint and dream a little, you will find a crystal clear anti-car message, which I appreciate.
 
 The movie has an awkward premise: the overly concerned parents of a 19-year-old boy hire a 32-year-old woman to "date" him and bring him out of his shell. The comedy, which is also awkward, does little to salvage the premise.
 
-Quick aside: I do see a sweet, somewhat redeeming commentary hidden in there-- a rebuttal of the moral panic promulgated by media outlets over the fact that Gen-Z doesn’t drink or have sex as much as previous generations. Jennifer Lawrence’s character (Maddie) and the boy’s parents initially subscribe to this panic. They worry that the boy (Percy) is missing key adolescent milestones involving sex, drugs, and partying due to excessive social inhibitions that he must overcome to find success and happiness in life. Meanwhile, young Percy is portrayed as a smart, sweet, and sensitive boy who (along with his peers) is not particularly impressed with Maddie’s ability to party or get laid. He is confused about her lifestyle, which doesn’t seem to make her happy, and points this out to her. In the end, we get something of a dialectical synthesis-- they both learn to be a bit more like each other. And that’s nice.
+Quick aside: I do see a sweet, somewhat redeeming commentary hidden in there-- a rebuttal of the moral panic promulgated by media outlets over the fact that [Gen-Z doesn’t drink or have sex as frequently as previous generations](https://www.businessinsider.com/generation-z-sex-alcohol-driving-study-2017-9). The boy’s parents initially subscribe to this panic. They worry that their child (Percy) is missing key adolescent milestones involving sex, drugs, and partying due to excessive social inhibitions that he must overcome to find success and happiness in life. Jennifer Lawrence’s character (Maddie) tends to agree with them. Meanwhile, young Percy is largely portrayed as a smart, sweet, and sensitive boy who (along with his peers) is not particularly impressed with Maddie’s ability to party or get laid. He is confused about her lifestyle, which doesn’t seem to make her happy, and points this out to her. In the end, we get something of a dialectical synthesis-- they both learn to be a bit more like each other. And that’s nice.
 
 But back to the anti-car message.
 
