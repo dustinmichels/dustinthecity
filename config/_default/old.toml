@@ -1,4 +1,6 @@
-baseURL = "https://dustinthe.city/"
+# baseURL = "https://dustinthe.city/"
+baseURL = "http://localhost:1313"
+
 defaultContentLanguage = "en"
 # disqusShortname = "your-disqus-shortname"
 # googleAnalytics = "your-google-analytics-id"
@@ -15,6 +17,11 @@ title = "Dust In The City"
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
+
+[taxonomies]
+category = "categories"
+geo = "geo"
+tag = "tags"
 
 [markup.highlight]
 guessSyntax = true
@@ -38,32 +45,28 @@ unsafe = true
 # Site parameters
 
 [params]
-author = "Dustin Michels"
-
-bio = "Dustin's dispatches on urban planning: thoughts, observations, projects, and learnings."
-
+author = "Dustin Michels" 
+avatarLink = "http://localhost:1313/" 
+bio = "Dustin's dispatches on urban planning: thoughts, observations, projects, and learnings." 
 copyright = "" 
 description = "Dispatches on urban planning, emanating from Somerville." 
 enableComments = true # To enable comments, you may need to set `disqusShortname`
 # enableGoogleAnalytics = true # To enable, you may need to set `googleAnalytics`
 # enableRSS = true # To enable RSS, you could set `enableRSS: true`, default is `true`
+customCSS = ["css/custom.css"] 
 hiddenPostSummaryInHomePage = false # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
 math = false # To enable math typesetting , you could set `math: true`, default is `false`
 showPowerBy = false # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
 showToc = true # To enable table of content, you could set `showToc: true`, default is `false`
-avatarLink = "http://localhost:1313/"
-customCSS = ["css/custom.css"]
-
 
 [[module.mounts]]
 excludeFiles = "_templates/*"
 source = "content/posts"
 target = "content/posts"
 
-
-[imaging]
-resampleFilter = "Box"
-quality = 75
-hint = "photo"
-anchor = "Smart"
-bgColor = "#ffffff"
+# [imaging]
+# anchor = "Smart"
+# bgColor = "#ffffff"
+# hint = "photo"
+# quality = 75
+# resampleFilter = "Box"
