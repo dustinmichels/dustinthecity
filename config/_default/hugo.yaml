@@ -1,22 +1,16 @@
-baseURL: http://localhost:1313
-languageCode: en-us
-title: Dust In The City
-theme: mini
-
-# Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
+baseURL: "http://localhost:1313"
 defaultContentLanguage: en
-
 hasCJKLanguage: false
-# permalinks:
-#   posts: /posts/:title/
-
+languageCode: en-us
 paginate: 30
+theme: mini
+title: Dust In The City
 
-# googleAnalytics: your-google-analytics-id
-# disqusShortname: your-disqus-shortname
+taxonomies:
+  category: categories
+  geo: geo
+  tag: tags
 
-# Hugo Configure Markup
-# More info: https://gohugo.io/getting-started/configuration-markup#
 markup:
   highlight:
     guessSyntax: true
@@ -25,51 +19,25 @@ markup:
     endLevel: 3
     ordered: false
     startLevel: 2
-  # needed to render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
   goldmark:
     renderer:
       unsafe: true
 
-# Social links in footer, support github,twitter,stackoverflow,facebook
-social:
-  # e.g.
-  github: your-github-link
-  twitter: your-twitter-link
-  stackoverflow: your-stackoverflow-link
-  # facebook: your-facebook-link
-
-# Site parameters
 params:
   author: Dustin Michels
+  avatarLink: "http://localhost:1313/"
   bio: "Dustin's dispatches on urban planning: thoughts, observations, projects, and learnings."
-  description: "Dustin's dispatches on urban planning: thoughts, observations, projects, and learnings."
-
-  enableRSS: true
-  enableComments: true
-  enableGoogleAnalytics: true
-  showToc: true
-  showPowerBy: true
-  math: false
-  hiddenPostSummaryInHomePage: false
   copyright: ""
-
-  # Extra links in navigation
-  links:
-    ## e.g.
-    # - name: Project
-    #   path: /project
-
-  # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
+  description: "Dispatches on urban planning, emanating from Somerville."
+  enableComments: true
   customCSS:
-    ## e.g.
-    # - css/custom.css # local css in `static/css/custom.css`
-    # - https://example.com/custom.css # remote css
     - css/custom.css
-  customJS:
-    ## e.g.
-    # - js/custom.js # local js in `static/js/custom.js`
-    # - https://example.com/custom.js # remote js
+  hiddenPostSummaryInHomePage: false
+  math: false
+  showPowerBy: false
+  showToc: true
 
+# ignore templates
 module:
   mounts:
     - excludeFiles: _templates/*
