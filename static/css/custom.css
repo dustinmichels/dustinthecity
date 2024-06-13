@@ -8,9 +8,37 @@
   font-style: italic;
 }
 
+/* SINGLE */
+
+#single .geo-tags a {
+  background: #f2f2f2;
+  padding: 4px 7px;
+  color: #757575;
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+#single .geo-tags a::before {
+  content: "📍";
+}
+
+#single .geo-tags a:hover {
+  color: #0366d6;
+}
+
+/* LIST PAGE */
+
+#list-page .title {
+  font-size: 18px; /* was 20 */
+  font-weight: 450; /* was 400 */
+}
+
+/* OTHER */
+
 /* Custom "medium pic" class for styling images in posts */
 .pic-m {
-  max-width: 400px;
+  /* max-width: 400px; */
+  max-width: 80%;
 }
 .pic-m img {
   width: 100%;

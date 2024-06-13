@@ -37,6 +37,10 @@ params:
   showPowerBy: false
   showToc: true
 
+  # links:
+  #   - name: Geo
+  #     path: /geo
+
 # ignore templates
 module:
   mounts:
