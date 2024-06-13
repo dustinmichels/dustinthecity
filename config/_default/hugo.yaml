@@ -35,7 +35,7 @@ params:
   hiddenPostSummaryInHomePage: false
   math: false
   showPowerBy: false
-  showToc: true
+  showToc: false
 
   # links:
   #   - name: Geo

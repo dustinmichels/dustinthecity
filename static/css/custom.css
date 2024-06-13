@@ -8,13 +8,34 @@
   font-style: italic;
 }
 
+/* ARCHIVE */
+
+#archive {
+  max-width: 680px; /* was 580px */
+}
+
+@media screen and (max-width: 600px) {
+  #archive .group .value .tags {
+    display: none;
+  }
+}
+
 /* SINGLE */
+
+#single .title {
+  font-size: 30px; /* was 32 */
+  font-weight: 450; /* was 400 */
+  line-height: 40px; /* was 48 */
+}
+
+#single .geo-tip {
+  margin-top: 10px;
+}
 
 #single .geo-tags a {
   background: #f2f2f2;
   padding: 4px 7px;
-  color: #757575;
-  font-size: 14px;
+  color: #8c8c8c;
   margin-right: 3px;
 }
 

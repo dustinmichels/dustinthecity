@@ -17,19 +17,22 @@
         <span>
           {{ i18n "minuteRead" . }}
         </span>
+
+        <!-- START edit -->
+        <div class="geo-tip">
+          {{ with .Params.geo }}
+              <div class="geo-tags">
+                  {{ range . }}
+                      <a href="{{ "geo/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+                  {{ end }}
+              </div>
+          {{ end}}
+        </div>
+        <!-- END edit -->
+
     </div>
 
-    <!-- START edit -->
-    <div class="geo-tip">
-        {{ with .Params.geo }}
-            <div class="geo-tags">
-                {{ range . }}
-                    <a href="{{ "geo/" | absURL }}{{ . | urlize }}">{{ . }}</a>
-                {{ end }}
-            </div>
-        {{ end}}
-    </div>
-    <!-- END edit -->
+
 
     
     {{ if or .Site.Params.showToc .Params.showToc }}
