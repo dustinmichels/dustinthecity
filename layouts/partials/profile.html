@@ -1,27 +1,12 @@
 <header class="profile">
-  {{ partial "rive.html" . }}
-
-
-  <!-- {{ if .Site.Params.avatarLink }}
-    <a href="{{ .Site.Params.avatarLink }}">
-      <img
-        class="avatar"
-        alt="avatar"
-        src="{{ "/images/avatar.png" | relURL }}"
-      />
-    </a>
-  {{ else }}
-    <img
-      class="avatar"
-      alt="avatar"
-      src="{{ "/images/avatar.png" |
-        relURL
-      }}"
-    />
-  {{ end }}
-   -->
-
-  <h1>{{ .Site.Title }}</h1>
+  <div style="display: flex; justify-content: center;">
+    <div id="profile-header" style="display: inline-block;">
+      {{ partial "rive.html" . }}
+      <h1 onclick="window.location.href = window.location.origin">
+        {{ .Site.Title }}
+      </h1>
+    </div>
+  </div>
 
   {{ with .Site.Params.Bio }}
     <h2>{{ . | markdownify }}</h2>

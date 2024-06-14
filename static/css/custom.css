@@ -21,6 +21,12 @@ body h1 {
   font-weight: 800;
 }
 
+#profile-header:hover {
+  h1 {
+    color: #4b764a;
+  }
+}
+
 /* Make subheading smaller */
 .profile h2 {
   font-size: 15px;
