@@ -9,3 +9,7 @@ hugo_stats.json
 /.hugo_build.lock
 
 content/posts/.obsidian/
+
+# NODE
+
+node_modules/

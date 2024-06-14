@@ -8,7 +8,8 @@
   font-style: italic;
 }
 
-/* ARCHIVE */
+/* ------------ */
+/* ARCHIVE PAGE */
 
 #archive {
   max-width: 680px; /* was 580px */
@@ -20,7 +21,12 @@
   }
 }
 
-/* SINGLE */
+#archive .group .value .tags a {
+  font-size: 12px;
+}
+
+/* ----------- */
+/* SINGLE PAGE */
 
 #single .title {
   font-size: 30px; /* was 32 */
@@ -47,6 +53,7 @@
   color: #0366d6;
 }
 
+/* --------- */
 /* LIST PAGE */
 
 #list-page .title {
@@ -54,17 +61,13 @@
   font-weight: 450; /* was 400 */
 }
 
-/* OTHER */
+/* ------ */
+/* IMAGES */
 
 /* Custom "medium pic" class for styling images in posts */
 .pic-m {
-  /* max-width: 400px; */
   max-width: 80%;
 }
 .pic-m img {
   width: 100%;
-}
-
-#archive .group .value .tags a {
-  font-size: 12px;
 }
