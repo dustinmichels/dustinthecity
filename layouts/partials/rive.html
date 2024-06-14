@@ -15,8 +15,13 @@
       src: '/rive/bike.riv',
       canvas: document.getElementById('canvas'),
       layout: layout,
-      autoplay: false,
+      autoplay: true,
       onLoad: () => {
+        // play for one second
+        setTimeout(() => {
+          r.pause()
+        }, 500)
+
         document.addEventListener('mousemove', function checkHover() {
           const canvas = document.getElementById('canvas')
           if (canvas.matches(':hover')) {
