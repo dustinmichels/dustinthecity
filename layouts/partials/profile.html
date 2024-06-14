@@ -2,7 +2,7 @@
   <div style="display: flex; justify-content: center;">
     <div id="profile-header" style="display: inline-block;">
       {{ partial "rive.html" . }}
-      <h1 onclick="window.location.href = window.location.origin">
+      <h1>
         {{ .Site.Title }}
       </h1>
     </div>
@@ -16,3 +16,18 @@
   <!-- this is all I added -->
   <hr />
 </header>
+
+<script>
+  const isMobileDevice = /Mobi/i.test(window.navigator.userAgent)
+
+  // handle click on profile header
+  if (isMobileDevice) {
+    console.log('Mobile device detected')
+  } else {
+    document
+      .getElementById('profile-header')
+      .addEventListener('click', function () {
+        window.location.href = window.location.origin
+      })
+  }
+</script>
