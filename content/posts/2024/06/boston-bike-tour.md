@@ -11,11 +11,11 @@ geo:
 
 When my friend Jonah visited me this week, I took him on a small but mighty bike tour. We rode-- almost entirely on protected bike paths-- down the Somerville Community Path, past North Point Park, through the North End to Long Wharf, around The Boston Common, and along the Charles River.
 
-{{< figure src="../img/map.jpg" class="pic-m">}}
+![Map of bike tour around Somerville and Boston](../img/map.jpg)
 
 Perfect weather. So beautiful, easy and, most importantly, _safe_. The whole time we flew past dispirited drivers trapped in traffic.
 
-{{< figure src="../img/jonah.jpg" class="pic-m">}}
+![Jonah on a bike by Long Wharf](../img/jonah.jpg)
 
 I am so grateful to have friends that love bikes and biking, since I feel so strongly it is the most joyous way to navigate the city.
 

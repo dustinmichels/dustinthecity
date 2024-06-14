@@ -11,6 +11,9 @@ taxonomies:
   geo: geo
   tag: tags
 
+permalinks:
+  posts: /posts/:year/:month/:slug/
+
 markup:
   highlight:
     guessSyntax: true

@@ -13,8 +13,6 @@ While commuting down Washington Street this morning, I encountered an Eversource
 
 Then, I realized the workers had created a path of cones, preserving the lost bike lane and sidewalk while closing down one lane to car traffic. Unprecedented! Remarkable!
 
-<!-- {{< figure src="../img/bike_cones.jpg" class="pic-m">}} -->
-
 ![path of cones](../img/bike_cones.jpg)
 
 I looped back to snap a picture and shouted to a worker who was eyeing me that I was very grateful and felt so loved. He shouted back, "I'll set it up for you tomorrow, too!" [[See tweet.]](https://twitter.com/Dustin_Michels/status/1800918461406687623). What a rare delight.
