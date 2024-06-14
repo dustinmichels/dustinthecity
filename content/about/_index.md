@@ -13,3 +13,7 @@ Recent content is centered around my current location: Somerville, MA.
 See also: [dustinmichels.com](https://dustinmichels.com).
 
 {{< figure src="img/dustin.jpg" alt="Me" class="about-pic">}}
+
+## Attributions
+
+- The animated bike was made by [@animooxstudio](https://rive.app/@animooxstudio/) and shared under a CC license on [rive.app/community/](https://rive.app/community/files/)

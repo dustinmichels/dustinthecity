@@ -1,0 +1,31 @@
+<div>
+  <canvas id="canvas" height="100" width="160" onclick="run"></canvas>
+
+  <!-- <script src="https://unpkg.com/@rive-app/canvas@2.9.1"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@rive-app/canvas-lite@2.17.3/rive.min.js"></script>
+
+  <script>
+    // Fill the canvas, cropping Rive if necessary
+    let layout = new rive.Layout({
+      fit: rive.Fit.Cover,
+    })
+
+    const r = new rive.Rive({
+      src: '/rive/bike.riv',
+      canvas: document.getElementById('canvas'),
+      layout: layout,
+      autoplay: false,
+      onLoad: () => {
+        document.addEventListener('mousemove', function checkHover() {
+          const canvas = document.getElementById('canvas')
+          if (canvas.matches(':hover')) {
+            r.play()
+          } else {
+            r.pause()
+          }
+        })
+      },
+    })
+  </script>
+</div>

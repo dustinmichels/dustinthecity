@@ -1,5 +1,8 @@
 <header class="profile">
-  {{ if .Site.Params.avatarLink }}
+  {{ partial "rive.html" . }}
+
+
+  <!-- {{ if .Site.Params.avatarLink }}
     <a href="{{ .Site.Params.avatarLink }}">
       <img
         class="avatar"
@@ -16,7 +19,7 @@
       }}"
     />
   {{ end }}
-
+   -->
 
   <h1>{{ .Site.Title }}</h1>
 
