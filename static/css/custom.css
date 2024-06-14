@@ -13,12 +13,18 @@ body h1 {
 /* PROFILE PARTIAL */
 
 .profile {
-  margin: 20px auto 0 auto;
+  margin: 10px auto 0 auto;
 }
 
 .profile h1 {
   font-size: 30px;
   font-weight: 800;
+}
+
+#profile-header:hover {
+  h1 {
+    color: #4b764a;
+  }
 }
 
 /* Make subheading smaller */

@@ -16,4 +16,4 @@ See also: [dustinmichels.com](https://dustinmichels.com).
 
 ## Attributions
 
-- The animated bike was made by [@animooxstudio](https://rive.app/@animooxstudio/) and shared under a CC license on [rive.app/community/](https://rive.app/community/files/)
+- The animated bike was made by [@animooxstudio](https://rive.app/community/files/8905-17032-cycling-in-the-park/) and shared under a CC license on [rive.app/community/](https://rive.app/community/files/)
