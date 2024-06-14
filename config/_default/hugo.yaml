@@ -44,6 +44,6 @@ params:
 # ignore templates
 module:
   mounts:
-    - excludeFiles: _templates/*
-      source: content/posts
-      target: content/posts
+    - excludeFiles: posts/_templates/*
+      source: content
+      target: content

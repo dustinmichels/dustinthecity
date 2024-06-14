@@ -64,7 +64,22 @@
 /* ------ */
 /* IMAGES */
 
-/* Custom "medium pic" class for styling images in posts */
+.markdown-image img {
+  max-width: 75%; /* was 100% */
+
+  /* center it */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .markdown-image img {
+    max-width: 90%;
+  }
+}
+
+/* Custom "medium pic" class for styling images in posts, when using figure shortcode */
 .pic-m {
   max-width: 80%;
 }
