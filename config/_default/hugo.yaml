@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313"
+baseURL: 'http://localhost:1313'
 defaultContentLanguage: en
 hasCJKLanguage: false
 languageCode: en-us
@@ -25,13 +25,16 @@ markup:
 
 params:
   author: Dustin Michels
-  avatarLink: "http://localhost:1313/"
+  avatarLink: 'http://localhost:1313/'
   bio: "Dustin's dispatches on urban planning: thoughts, observations, projects, and learnings."
-  copyright: ""
-  description: "Dispatches on urban planning, emanating from Somerville."
+  copyright: ''
+  description: 'Dispatches on urban planning, emanating from Somerville.'
   enableComments: true
   customCSS:
     - css/custom.css
+    - css/modal.css
+  customJS:
+    - js/modal.js
   hiddenPostSummaryInHomePage: false
   math: false
   showPowerBy: false
