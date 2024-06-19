@@ -82,9 +82,22 @@ body h1 {
 /* --------- */
 /* LIST PAGE */
 
+.title-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
 #list-page .title {
+  width: auto;
   font-size: 18px; /* was 20 */
   font-weight: 450; /* was 400 */
+}
+
+#list-page .date {
+  width: auto;
+  float: none;
 }
 
 /* ------ */
