@@ -8,7 +8,7 @@ I am a software engineer, bike commuter, and believer in better cities.
 
 I want to be part of the fight to make our cities more equitable, sustainable, beautiful, safe, and fun. This website is essentially a diary of my urban planning thoughts, observations, projects, and learnings.
 
-Recent content is centered around my current location: Somerville, MA.
+Recent content is centered around my current location: [Somerville, MA](/geo/somerville/).
 
 See also: [dustinmichels.com](https://dustinmichels.com).
 

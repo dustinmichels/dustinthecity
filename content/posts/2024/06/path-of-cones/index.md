@@ -13,7 +13,7 @@ While commuting down Washington Street this morning, I encountered an Eversource
 
 Then, I realized the workers had actually created a path of cones, preserving the lost bike lane and sidewalk while closing down one lane to car traffic. Unprecedented! Remarkable!
 
-![Path of construction cones, extending the bike path and sidewalk lost to service work, on Washington Street. June 12, 2024.](img/bike_cones.jpg)
+![Bike path made of construction cones. Washington Street, Somerville, MA. June 12, 2024.](img/bike_cones.jpg)
 
 I looped back to snap a picture and shouted to a worker who was eyeing me that I felt so grateful and loved. He shouted back, "I’ll set it up for you tomorrow, too!" [[See tweet.]](https://twitter.com/Dustin_Michels/status/1800918461406687623). What a rare delight.
 

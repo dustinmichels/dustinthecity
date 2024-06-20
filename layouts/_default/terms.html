@@ -1,0 +1,30 @@
+{{ define "main" }}
+  {{ partial "profile.html" . }}
+  <section id="tags">
+    <!-- <h3>Tags</h3> -->
+
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.ByCount }}
+      {{ if ($value.Name) }}
+        <span class="tag">
+          <a href="{{ "tags/" | relURL }}{{ $value.Name | urlize }}">
+            {{ $value.Name | upper }} <span>({{ $value.Count }})</span>
+          </a>
+        </span>
+      {{ end }}
+    {{ end }}
+
+
+    <!-- Geo Tags -->
+    <h3>Location tags 📍</h3>
+
+    {{ range $key, $value := .Site.Taxonomies.geo.ByCount }}
+      <span class="tag">
+        <a href="{{ "geo/" | relURL }}{{ $value.Name | urlize }}">
+          {{ $value.Name | upper }} <span>({{ $value.Count }})</span>
+        </a>
+      </span>
+    {{ end }}
+
+  </section>
+{{ end }}

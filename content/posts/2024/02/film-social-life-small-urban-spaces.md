@@ -6,6 +6,9 @@ tags:
   - film
   - documentary
   - PCDC
+geo:
+  - pittsfield
+  - NYC
 draft: false
 ---
 
