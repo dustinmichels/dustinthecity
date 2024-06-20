@@ -130,7 +130,7 @@ body h1 {
 /* IMAGES */
 
 .markdown-image img {
-  max-width: 75%; /* was 100% */
+  max-width: 80%; /* was 100% */
 
   /* center it */
   display: block;

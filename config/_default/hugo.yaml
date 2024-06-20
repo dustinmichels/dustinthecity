@@ -2,7 +2,7 @@ baseURL: 'http://localhost:1313'
 defaultContentLanguage: en
 hasCJKLanguage: false
 languageCode: en-us
-paginate: 3
+paginate: 10
 theme: mini
 title: Dust In The City
 
@@ -41,7 +41,7 @@ params:
   hiddenPostSummaryInHomePage: false
   math: false
   showPowerBy: false
-  showToc: false
+  # showToc: true
 
   # links:
   #   - name: Geo
