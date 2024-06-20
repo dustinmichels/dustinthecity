@@ -3,7 +3,7 @@ title: 'Confessions of an Entitled Cyclist'
 date: 2023-07-18
 tags:
 geo:
-draft: false
+draft: true
 ---
 
 (Date could also be August 17)

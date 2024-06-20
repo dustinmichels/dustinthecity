@@ -6,5 +6,5 @@ tags:
   - stop-signs
   - biking
   - idaho-stop
-draft: false
+draft: true
 ---

@@ -1,10 +1,10 @@
 ---
-title: "HSD: City Making"
+title: 'HSD Lecture: City Making'
 date: 2023-10-24
 tags:
   - HSD
   - cars
-draft: false
+draft: true
 ---
 
 On Tuesday evening, I attended a talk at Harvard School of Design (HSD) delivered by Manuel Salgado, an architect and former head of urban planning on the Lisbon City Council. The topic was "city-making" and "how to intervene as a contemporary architect working in a historical city?"
