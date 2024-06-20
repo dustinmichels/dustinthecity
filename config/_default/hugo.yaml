@@ -2,7 +2,7 @@ baseURL: 'http://localhost:1313'
 defaultContentLanguage: en
 hasCJKLanguage: false
 languageCode: en-us
-paginate: 30
+paginate: 3
 theme: mini
 title: Dust In The City
 

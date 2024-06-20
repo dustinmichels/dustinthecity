@@ -9,10 +9,12 @@ body h1 {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
-p {
-  a:hover {
-    background-color: #f2f2f2;
-  }
+#single a:hover {
+  background-color: #f2f2f2;
+}
+
+#section a:hover {
+  background-color: #f2f2f2;
 }
 
 /* --------------- */
