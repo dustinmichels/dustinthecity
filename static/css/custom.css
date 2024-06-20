@@ -9,6 +9,14 @@ body h1 {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
+#single a:hover {
+  background-color: #f2f2f2;
+}
+
+#section a:hover {
+  background-color: #f2f2f2;
+}
+
 /* --------------- */
 /* PROFILE PARTIAL */
 
@@ -80,11 +88,42 @@ body h1 {
 }
 
 /* --------- */
+/* TAGS PAGE */
+
+#tags .geo-tags a {
+  background: #f2f2f2;
+  padding: 4px 7px;
+  color: #8c8c8c;
+  margin-right: 3px;
+}
+
+#tags .geo-tags a::before {
+  content: '📍';
+}
+
+#tags .geo-tags a:hover {
+  color: #0366d6;
+}
+
+/* --------- */
 /* LIST PAGE */
 
+.title-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
 #list-page .title {
+  width: auto;
   font-size: 18px; /* was 20 */
   font-weight: 450; /* was 400 */
+}
+
+#list-page .date {
+  width: auto;
+  float: none;
 }
 
 /* ------ */
@@ -114,6 +153,10 @@ body h1 {
   margin-right: auto;
 
   filter: drop-shadow(10px 5px 4px #9a9aa5);
+}
+
+.about-pic img:hover {
+  filter: drop-shadow(20px 10px 8px #9a9aa5);
 }
 
 /* Custom "medium pic" class to use with figure shortcode */
