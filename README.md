@@ -27,3 +27,7 @@ git submodule update --remote --merge
 - `custom.css` is in `static/css` and is used to override the theme's CSS.
 
 - `config/_default/hugo.toml` is the main configuration file. Some settings are overwritten for production in `config/production/hugo.toml`.
+
+## Notes
+
+- Analytics at [Plausible](https://plausible.io)
