@@ -72,9 +72,11 @@
 
 
 <!-- Add analytics with plausible -->
-<script
-  defer
-  data-domain="dustinthe.city"
-  data-api="/plausible-subdirectory/api/event"
-  src="/plausible-subdirectory/js/script.js"
-></script>
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+  <script
+    defer
+    data-domain="dustinthe.city"
+    data-api="/plausible-subdirectory/api/event"
+    src="/plausible-subdirectory/js/script.js"
+  ></script>
+{{ end }}

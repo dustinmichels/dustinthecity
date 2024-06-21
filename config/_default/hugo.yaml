@@ -26,13 +26,19 @@ markup:
     renderer:
       unsafe: true
 
+# Social links in footer, support github,twitter,stackoverflow,facebook
+social:
+  github: https://github.com/dustinmichels/
+  twitter: https://x.com/Dustin_Michels
+
 params:
   author: Dustin Michels
   avatarLink: 'http://localhost:1313/'
   bio: "Dustin's dispatches on urban planning: thoughts, observations, projects, and learnings."
   copyright: ''
   description: 'Dispatches on urban planning, emanating from Somerville.'
-  enableComments: true
+  enableComments: false
+  enableGoogleAnalytics: false
   customCSS:
     - css/custom.css
     - css/modal.css
@@ -43,13 +49,11 @@ params:
   showPowerBy: false
   # showToc: true
 
-  # links:
-  #   - name: Geo
-  #     path: /geo
-
-# ignore templates
+# ignore Obsidian template
 module:
   mounts:
     - excludeFiles: posts/_templates/*
       source: content
       target: content
+    - source: 'node_modules/@fontsource-variable/open-sans'
+      target: 'static/fonts/fontsource-variable/open-sans'

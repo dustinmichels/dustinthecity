@@ -2,30 +2,30 @@
 
 ## Setup
 
-Add formatter:
+Update hugo:
+
+```sh
+brew upgrade hugo
+```
+
+Add prettier formatter:
 
 ```sh
 npm i
 ```
 
-### Install theme
-
-Initial setup:
+Get theme:
 
 ```sh
-git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
-```
-
-When you re-clone:
-
-```sh
+# install theme
 git submodule update --init --recursive
-```
 
-To update the theme, run:
-
-```sh
+# to update theme
 git submodule update --remote --merge
+
+
+# (Note: the initial command was)
+git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
 ```
 
 ## Key Files
