@@ -2,7 +2,8 @@
 title: 'Project: Stroad Hero'
 date: 2024-01-13
 draft: false
-images: img/gameplay.png
+images:
+  - img/gameplay.png
 geo:
   - Muncie, Indiana
 tags:
