@@ -2,8 +2,5 @@
   "devDependencies": {
     "prettier": "^3.3.2",
     "prettier-plugin-go-template": "^0.0.15"
-  },
-  "dependencies": {
-    "@fontsource-variable/open-sans": "^5.0.29"
   }
 }
