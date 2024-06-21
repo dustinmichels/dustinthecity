@@ -2,6 +2,14 @@
 
 ## Setup
 
+Add formatter:
+
+```sh
+npm i
+```
+
+### Install theme
+
 Initial setup:
 
 ```sh
