@@ -7,6 +7,8 @@ tags:
 geo:
   - boston
   - somerville
+images:
+  - 'img/bike_cones.jpg'
 ---
 
 While commuting down Washington Street this morning, I encountered an Eversource electrical truck protruding into the bike lane. Though this seemed like a reasonable blockage, I still murmured something under my breath about how _there is always shit in the bike lane_ and glanced over my left shoulder, preparing to merge into bustling traffic.

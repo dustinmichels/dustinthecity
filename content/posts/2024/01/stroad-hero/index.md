@@ -3,7 +3,7 @@ title: 'Project: My "Stroad Hero" Video Game'
 date: 2024-01-13
 draft: false
 images:
-  - img/gameplay.png
+  - 'img/gameplay.png'
 geo:
   - Muncie, Indiana
 tags:
