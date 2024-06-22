@@ -1,5 +1,5 @@
 ---
-title: 'Coding Project: Stroad Hero'
+title: 'Project: My "Stroad Hero" Video Game'
 date: 2024-01-13
 draft: false
 images:
