@@ -1,5 +1,5 @@
 ---
-title: 'Project: Stroad Hero'
+title: 'Coding Project: Stroad Hero'
 date: 2024-01-13
 draft: false
 images:
@@ -38,11 +38,9 @@ The idea is that traffic planners (especially in countries like the Netherlands)
 
 - **A street** is for moving cars, bikes, and people around _within_ a destination, such as a neighborhood or a city center. Here, cars are constantly slowing down to turn, park, or yield to pedestrians, so speeds need to be low. Low speeds can be encouraged by making streets narrow and winding and featuring obstructions that compel drivers to take it easy.
 
-However, what you find all over America is the "stroad." It has many features of a road, like wide, straight lanes for moving cars along as fast as possible. But it is _also_ a destination where drivers constantly need to slow, turn, park, and get out of their cars.
+However, what you find all over America is the "stroad." It is a streamlined thruway but also a destination. Everything about the design indicates you should be able to drive really fast, but you can’t. You must be on the lookout for turning cars and intersections and people.
 
 ![Image of a different stroad from StrongTowns.org](http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5a985d26ec212d62633e055a/1621890412017/7stroad+with+walking+person.jpg?format=1500w)
-
-Everything about the design indicates you should be able to drive really fast, but you can’t. You must be on the lookout for turning cars and intersections and people.
 
 Stroads are full of these annoying contradictions and ironic oddities. For example, you might see a wide margin devoid of trees or any obstacles a car could collide with (as dictated by road design principles), but then a bike lane or sidewalk is haphazardly tossed into that same margin!
 
@@ -70,7 +68,7 @@ I wanted the player to feel revulsion at little Mats getting crushed repeatedly.
 
 The game should be fun, too. I thought the fun could come from _becoming_ the Stroad Hero-- from achieving mastery over this daunting environment. Not only does the player learn to move without getting hit, but she could also unlock new tools to make movement easier. Like a skateboard or a hammer she could wave at motorists to make them stop.
 
-But is that the right message? That you can "win" by mastering this environment? In an alternative concept, there are other pedestrians besides you getting killed, and their deaths also augment the SPD counter. No matter how trained your own movement becomes, you still lose in the end. The only way to win is to change the built environment. Perhaps you can sneak out at night to paint crosswalks where they are lacking. Or somehow lobby the city council to redo the street?? Via a fun mini game??
+But is that the right message? That you can "win" by mastering this environment? In an alternative concept, there are other pedestrians besides you getting killed, and their deaths also augment the SPD counter. No matter how trained your own movement becomes, you still lose in the end. The only way to win is to change the built environment. Perhaps you can sneak out at night to paint crosswalks where they are lacking. Or somehow lobby the city council to implement a [road diet](https://en.wikipedia.org/wiki/Road_diet)? ...Via a fun mini game?
 
 ### Progress
 
