@@ -14,7 +14,7 @@ categories:
   - project
 ---
 
-For the past month or so I have been working on a little activist video game called "Stroad Hero." I'm using the Godot game engine, and the code is [on GitHub](https://github.com/dustinmichels/stroad-hero). It's far from finished, but here's a write-up about how it started and how it's going.
+For the past month or so I have been working on a little activist video game called "Stroad Hero." I'm using the Godot game engine, and the code is [on GitHub](https://github.com/dustinmichels/stroad-hero). Here's a write-up about how it started and how it's going.
 
 ---
 
@@ -40,9 +40,9 @@ The idea is that traffic planners (especially in countries like the Netherlands)
 
 However, what you find all over America is the "stroad." It has many features of a road, like wide, straight lanes for moving cars along as fast as possible. But it is _also_ a destination where drivers constantly need to slow, turn, park, and get out of their cars.
 
-Everything about the design indicates you should be able to drive really fast, but you can’t. You must be on the lookout for turning cars and intersections and people.
-
 ![Image of a different stroad from StrongTowns.org](http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/5a985d26ec212d62633e055a/1621890412017/7stroad+with+walking+person.jpg?format=1500w)
+
+Everything about the design indicates you should be able to drive really fast, but you can’t. You must be on the lookout for turning cars and intersections and people.
 
 Stroads are full of these annoying contradictions and ironic oddities. For example, you might see a wide margin devoid of trees or any obstacles a car could collide with (as dictated by road design principles), but then a bike lane or sidewalk is haphazardly tossed into that same margin!
 
@@ -58,7 +58,7 @@ The initial idea was to create a simple, 2D, pixel-art-based ode to [Frogger](ht
 
 <!-- ![Frogger](https://upload.wikimedia.org/wikipedia/en/c/cd/Frogger_game_arcade.png) -->
 
-As I chatted with friends, more narrative elements quickly developed. I decided you should play as Mats, a hapless Dutch boy trying to navigate a perilous shopping center in Anywhere, USA. I thought the tagline could be: "Do you have what it takes to complete a series of simple shopping tasks without becoming another senseless pedestrian death? Do you have what it takes to become the Stroad Hero?"
+As I chatted with friends, more narrative elements quickly developed. I decided you should play as Mats, a hapless Dutch boy trying to navigate a perilous shopping center in Anywhere, USA. I thought the tagline could be: _"Do you have what it takes to complete a series of simple shopping tasks without becoming another senseless pedestrian death? Do you have what it takes to become the Stroad Hero?"_
 
 ![Banner for Stroad Hero, made with (temporary) AI artwork.](img/stroad-hero-banner.png)
 
@@ -66,9 +66,9 @@ I imagined that Mats and his mother had recently moved to the US from the Nether
 
 I envisioned an "SPD" counter in the top right corner (for senseless pedestrian deaths), which increases each time Mats gets crushed. And an "errands completed" counter, too.
 
-I wanted the player to feel revulsion at little Mats getting crushed repeatedly. I also wanted to capture the frustration of wandering endlessly through a sprawling and confusing environment. I wanted to include humor as well, in part through parody. I imagined spoofing all the shops' names and logos, like "TacoHell" and "WalGroins," for instance.
+I wanted the player to feel revulsion at little Mats getting crushed repeatedly. I also wanted to capture the frustration of wandering endlessly through a sprawling and confusing place. And I wanted to include humor, by parodying this ridiculous environment. I imagined spoofing all the shops' names and logos, like "TacoHell" and "WalGroins," for instance.
 
-And then the game should be fun, too. I thought the fun could come from _becoming_ the Stroad Hero-- from achieving mastery over this daunting environment. Not only does the player learn to move without getting hit, but she could also unlock new tools to make movement easier. Like a skateboard or a hammer she could wave at motorists to make them stop.
+The game should be fun, too. I thought the fun could come from _becoming_ the Stroad Hero-- from achieving mastery over this daunting environment. Not only does the player learn to move without getting hit, but she could also unlock new tools to make movement easier. Like a skateboard or a hammer she could wave at motorists to make them stop.
 
 But is that the right message? That you can "win" by mastering this environment? In an alternative concept, there are other pedestrians besides you getting killed, and their deaths also augment the SPD counter. No matter how trained your own movement becomes, you still lose in the end. The only way to win is to change the built environment. Perhaps you can sneak out at night to paint crosswalks where they are lacking. Or somehow lobby the city council to redo the street?? Via a fun mini game??
 
