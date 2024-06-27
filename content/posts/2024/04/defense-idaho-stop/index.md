@@ -39,7 +39,7 @@ This sometimes feels like the "polite" thing to do-- act like a car and don’t 
 
 One risk is that if the car behind you gets forcefully rear-ended, it will smash into the car in front, and you will get smooshed between them before you have time to react.
 
-![Animated gif of option 1](img/intersection_01.gif)
+![Animated gif of option 1, depicting the risk of getting squashed.](img/intersection_01.gif)
 
 Another downside of this approach is that once the light turns green, you feel a lot of pressure to _go go go_. With cars moving ahead and behind you, you limit your ability to verify that the coast is clear and react to issues like a driver running a red light.
 
@@ -49,13 +49,13 @@ To avoid the smoosh zone and stay outside the flow of car traffic, you could pos
 
 The issue here is you sacrifice your visibility. Cars may not notice you creeping up the right-hand side, and when the light turns green, you could easily be struck by a vehicle turning right.
 
-![Animated gif of option 1](img/intersection_02.gif)
+![Animated gif of option 2, depicting the risk of getting right-hooked.](img/intersection_02.gif)
 
 ### Option 3: Wait in front of cars
 
 To fix the visibility issue, you could wait directly in front of all the stopped cars. This behavior is sometimes encouraged by a ["bike box,"](https://nacto.org/publication/urban-bikeway-design-guide/intersection-treatments/bike-boxes/) a painted area in front of the cars that is reserved for bikes.
 
-![Animated gif of option 1](img/intersection_03.gif)
+![Animated gif of option 3, depicting no collision but a line of cars behind the cyclist.](img/intersection_03.gif)
 
 This is often the right strategy for safely crossing an intersection. The problem is what happens _after_ the intersection. Now you have a long line of impatient cars behind you that want to pass as soon as possible.
 
