@@ -6,7 +6,7 @@ tags:
   - cars
   - pedestrians
   - porchfest
-  - somerville
+  - Somerville, MA
 ---
 
 Porchfest is a local Somerville tradition I adore for the music, sure, but mostly for the pedestrian superiority on full display.

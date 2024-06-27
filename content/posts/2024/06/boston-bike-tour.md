@@ -5,8 +5,8 @@ tags:
   - biking
   - somerville-community-path
 geo:
-  - somerville
-  - boston
+  - Somerville, MA
+  - Boston, MA
 ---
 
 When my friend Jonah visited me this week, I took him on a small but mighty bike tour. We rode-- almost entirely on protected bike paths-- down the Somerville Community Path, past North Point Park, through the North End to Long Wharf, around The Boston Common, and along the Charles River.

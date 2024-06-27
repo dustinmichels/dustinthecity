@@ -5,8 +5,8 @@ tags:
   - dynamic-curbs
   - bike-path
 geo:
-  - boston
-  - somerville
+  - Boston, MA
+  - Somerville, MA
 images:
   - 'img/bike_cones.jpg'
 ---
