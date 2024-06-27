@@ -2,5 +2,9 @@
   "devDependencies": {
     "prettier": "^3.3.2",
     "prettier-plugin-go-template": "^0.0.15"
+  },
+  "scripts": {
+    "build": "hugo",
+    "fmt": "prettier --write public/**/*.{html,css,js}"
   }
 }
