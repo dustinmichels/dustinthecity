@@ -52,6 +52,12 @@ body h1 {
 
   font-size: 16px;
   margin-bottom: 12px;
+
+  transition: font-size 0.8s;
+}
+
+#archive .group .value:hover {
+  font-size: 17px;
 }
 
 #archive {
@@ -129,6 +135,11 @@ body h1 {
   width: auto;
   font-size: 18px; /* was 20 */
   font-weight: 450; /* was 400 */
+  transition: font-size 1s;
+}
+
+#list-page .title:hover {
+  font-size: 20px;
 }
 
 #list-page .date {
