@@ -26,11 +26,6 @@ markup:
     renderer:
       unsafe: true
 
-# Social links in footer, support github,twitter,stackoverflow,facebook
-social:
-  github: https://github.com/dustinmichels/
-  twitter: https://x.com/Dustin_Michels
-
 params:
   author: Dustin Michels
   avatarLink: 'http://localhost:1313/'
@@ -47,6 +42,10 @@ params:
   hiddenPostSummaryInHomePage: false
   math: false
   showPowerBy: false
+  # Social links in footer, support github,twitter,stackoverflow,facebook
+  social:
+    github: https://github.com/dustinmichels/
+    twitter: https://x.com/Dustin_Michels
   # showToc: true
 
 # ignore Obsidian template

@@ -7,14 +7,12 @@
     <h1 class="title">{{ .Title }}</h1>
 
     <div class="tip">
+      <span> Dustin Michels </span>
+      <span class="split"> · </span>
       <time datetime="{{ .PublishDate }}">{{ i18n "publishDateFull" . }}</time>
       <span class="split"> · </span>
       <span>
         {{ i18n "wordCount" . }}
-      </span>
-      <span class="split"> · </span>
-      <span>
-        {{ i18n "minuteRead" . }}
       </span>
 
       <!-- START edit -->

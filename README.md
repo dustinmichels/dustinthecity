@@ -23,7 +23,6 @@ git submodule update --init --recursive
 # to update theme
 git submodule update --remote --merge
 
-
 # (Note: the initial command was)
 git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
 ```
