@@ -44,9 +44,9 @@ Much has been written about the loneliness epidemic in the US. In May 2023, Dr. 
 
 What about children specifically? Children face rising rates of anxiety and clinical depression, amounting to [a national emergency](https://www.npr.org/2021/10/20/1047624943/pediatricians-call-mental-health-crisis-among-kids-a-national-emergency). Anxiety and depression are [strongly associated with social isolation](https://pubmed.ncbi.nlm.nih.gov/34614137/).
 
-And what about parents? According to [Pew research](https://www.pewresearch.org/social-trends/2023/01/24/parenting-in-america-today/), "most parents (62%) say being a parent has been at least somewhat harder than they expected, with about a quarter (26%) saying it’s been a lot harder." Many are tired and stressed.
+And what about parents? According to [Pew research](https://www.pewresearch.org/social-trends/2023/01/24/parenting-in-america-today/), most parents say being a parent has been harder than they expected. Many are tired and stressed.
 
-The US is a land where insular, nuclear families are the default, and where paranoia about 'stranger danger' runs high, yet parents frequently complain about the loneliness and difficulty of raising children without "a village."
+The US is a land where insular, nuclear families reign supreme, and where paranoia about 'stranger danger' runs high, yet parents frequently complain about the loneliness and difficulty of raising children without a so-called "village."
 
 This is to say: while a loneliness epidemic claws across America, many parents seem interested in cultivating community bonds that can provide support and socialization for themselves and their children, and many children would likely benefit greatly from increased social interaction.
 
@@ -54,7 +54,7 @@ Can parks and playgrounds play a role in addressing these issues? Probably!
 
 The surgeon general advisory specifically recommends strengthening "social infrastructure", including parks and libraries as a solution.
 
-However, not all playgrounds are created equal. Different amenities afford different types of play and social interaction.
+However, not all playgrounds are created equal. Different amenities afford different types of play and social interaction.[^2]
 
 When families come to a playground, do parents sit on their phones while children play independently? Do parents play one-on-one with their own children? Or do parents and children play together with others, forming new bonds in a way that models healthy social connection and potentially even creates relationships that extend beyond the playground? There is a place for all of these, but the last one seems the most elusive unless careful thought is put into the design of the playground.
 
@@ -63,6 +63,16 @@ The basket swing is one technology I see that invites play beyond pre-existing r
 At a park I frequently visit with my "little" from the [Big Brother Big Sister](https://www.bbbs.org/) program, I see another. There's a giant carousel that children can climb on which spins in circles, but it's heavy enough that a young child struggles to push it alone. This invites children to work together or enlist the help of an adult-- any adult.
 
 In playgrounds, cooperative, community-building play can be encouraged by design. You can almost trick kids and caregivers into _having_ to meet each other in order to maximize the toys at their disposal.
+
+In cities, the situation is different but not so different. We don't necessarily want to trick adults into playing with each other, but we do want to invite spontaneous social interaction and relationship building through design. Walkable neighborhoods, dog parks, and community gardens can serve these purposes.
+
+It's fun to think about "tricking" anti-social American adults into meeting and cooperating with each other through design.
+
+I visited a Brazilian pastelaria here in Somerville, where a woman asked to share my table. She turned out to be a researcher studying, believe it or not, "Brazilian restaurants in Somerville." She explained that places like this pastelaria are interesting because they are little pockets of the city that adhere to and enforce Brazilian social norms. For example, sharing tables with strangers. She said if we were in an American restaurant she might not have asked to share my table, but in this space I would have to adapt to Brazilian rules.
+
+Outside of a Brazilian pastelaria, what type of design could disrupt an American's shyness about sharing a table, and indicate it's okay to share a table with a stranger? Would such an intervention help combat the loneliness epidemic?
+
+Getting lonely Americans to learn to make friends again seems like a daunting task. But perhaps playgrounds, built to encourage new relationships, are a good place to start.
 
 [^1]: In "A Process Framework of Affordances in Design," Udo Kannengiesser and John S. Gero define "afforances" as "the action possibilities of a user when the user interacts with an artifact." They add "They can be 'directly' perceived, based on the structural features of the artifact. This understanding has the advantage that users do not need to be provided explicit instructions about how to use the artifact." Design Issues 28, no. 1 (2012): 50–62. http://www.jstor.org/stable/41427809.
 
