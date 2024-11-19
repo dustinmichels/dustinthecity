@@ -58,7 +58,7 @@ However, not all playgrounds are created equal. Different amenities afford diffe
 
 When families come to a playground, do parents sit on their phones while children play independently? Do parents play one-on-one with their own children? Or do parents and children play together with others, forming new bonds in a way that models healthy social connection and potentially even creates relationships that extend beyond the playground? There is a place for all of these, but the last one seems the most elusive unless careful thought is put into the design of the playground.
 
-The basket swing is one technology I see that invites play beyond pre-existing relationships.
+The basket swing is one technology I see that invites intergenerational play beyond pre-existing relationships.
 
 At a park I frequently visit with my "little" from the [Big Brother Big Sister](https://www.bbbs.org/) program, I see another. There's a giant carousel that children can climb on which spins in circles, but it's heavy enough that a young child struggles to push it alone. This invites children to work together or enlist the help of an adult-- any adult.
 
