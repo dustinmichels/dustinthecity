@@ -187,3 +187,14 @@ body h1 {
 .pic-m img {
   width: 100%;
 }
+
+/* TABLE */
+
+table {
+  font-size: 0.75em;
+  overflow: hidden;
+}
+
+table tr:hover {
+  background-color: lightyellow !important;
+}

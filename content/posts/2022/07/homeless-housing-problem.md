@@ -5,7 +5,7 @@ tags:
   - homelessness
   - housing
 geo:
-  - denver
+  - Denver, CO
 categories:
   - book-review
 draft: true
