@@ -17,7 +17,9 @@ draft: false
 
 Back in 2020, when I was living in Sweden and (as usual) commuting everywhere by bike I came across a wonderful [animation on reddit](https://www.reddit.com/r/dataisbeautiful/comments/f8nu0c/oc_this_is_how_londons_street_grid_reveals_using/), depicting the poster's five years of biking data in London. Bike routes are added onto a black background one by one in rapid succession, combining to make the street grid of the city legible.
 
-I immediately started recording my own bike rides with Strava. I even took more creative routes to make sure I was padding out the grid. At some point I tried making my own version of the map but got stumped and gave up. Then I moved to Denver. Then I moved to Boston. All the while I've been biking and logging my rides.
+I immediately started recording my own bike rides with Strava. I even took more creative routes to make sure I was padding out the grid, leading me to reflect on [how measurement can influence behavior](/posts/2020/06/strava-and-design-induced-behavior/).
+
+At some point I tried making my own version of the map but got stumped and gave up. Then I moved to Denver. Then I moved to Boston. All the while I've been biking and logging my rides.
 
 I am currently auditing two courses at MIT which deal with spatial data and I've picked up a few useful skills that made me feel ready to try again. And this time I was able to produce some zippy little animations!
 
@@ -74,7 +76,9 @@ In every city I have lived in since seeing that post, somewhere in the back of m
 
 ### Future work
 
-I would like to expand on this project by creating a web tool that others can use to make their own animations like this. Most of the pieces are in place, I would just need to replcae the QGIS step with a more programmatic solution. I may also want to use the strava API instead of relying on the bulk download.
+I would like to expand on this project by creating a reusable tool that others can use to make their own animations like this. Most of the pieces are in place, I would just need to replcae the QGIS step with a more programmatic solution. I may also want to use the strava API instead of relying on the bulk download.
+
+I am also interested in building these maps into a larger, interactive data dashboard that lets a user scroll through time and see total number of rides, total distance covered, percent of the city explored, and other metrics increase the grid gets filled in.
 
 ## Procedure
 
