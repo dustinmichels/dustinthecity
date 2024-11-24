@@ -194,7 +194,13 @@ body h1 {
 
 /* TABLE */
 
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 table {
+  border-collapse: collapse;
   font-size: 0.75em;
   overflow: hidden;
 }

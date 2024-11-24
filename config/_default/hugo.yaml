@@ -39,6 +39,7 @@ params:
     - css/modal.css
   customJS:
     - js/modal.js
+    - js/table.js
   hiddenPostSummaryInHomePage: false
   math: false
   showPowerBy: false
