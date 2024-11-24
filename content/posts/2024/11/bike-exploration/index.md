@@ -10,6 +10,8 @@ geo:
   - Denver, CO
   - Gothenburg, Sweden
   - Boston, MA
+images:
+  - img/boston.gif
 draft: false
 ---
 
