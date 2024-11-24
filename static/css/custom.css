@@ -192,6 +192,16 @@ body h1 {
   width: 100%;
 }
 
+/* HOME BUTTON */
+
+.home-button {
+  border: #5badf0 solid 1px;
+}
+
+.home-button:hover {
+  background-color: #f2f2f2;
+}
+
 /* TABLE */
 
 .table-container {

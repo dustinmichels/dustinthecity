@@ -1,5 +1,5 @@
 ---
-title: Bike exploration animations
+title: 'Project: Bike exploration animations'
 date: 2024-11-20
 tags:
   - plot
