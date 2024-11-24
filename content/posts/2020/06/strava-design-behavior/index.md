@@ -37,8 +37,6 @@ As Olga Tokarczuk says:[^1]
 
 Also, Strava _does_ track if you rode or ran with friends, it lets you upload photos (again to tell a story and celebrate the experience), it lets you mark how a workout _felt_, and it encourages you to give "kudos" to your friends to celebrate their accomplishments.
 
-All of that is to be celebrated.
-
 Even though metrics like speed and distance can become problematic if a user over-fixates on them, overall Strava's team has done a wonderful job of balancing those metrics with other design tricks that encourage adventure, social connection, and fun.
 
 [^1]: [Olga Tokarczuk, "Flights"](https://www.goodreads.com/work/quotes/57944891-bieguni)
