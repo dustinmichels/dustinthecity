@@ -35,7 +35,7 @@ As Olga Tokarczuk says:[^1]
 
 > "nothing cures melancholy like looking at maps."
 
-Strava also _does_ track if you rode or ran with friends, it lets you upload photos (again to tell a story and celebrate the experience), it lets you mark how a workout _felt_, and it encourages you to give "kudos" to your friends to celebrate their accomplishments.
+Also, Strava _does_ track if you rode or ran with friends, it lets you upload photos (again to tell a story and celebrate the experience), it lets you mark how a workout _felt_, and it encourages you to give "kudos" to your friends to celebrate their accomplishments.
 
 All of that is to be celebrated.
 
