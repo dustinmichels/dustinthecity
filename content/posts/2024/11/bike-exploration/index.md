@@ -7,8 +7,8 @@ tags:
   - bike
   - map
 geo:
-  - Denver, CO
   - Gothenburg, Sweden
+  - Denver, CO
   - Boston, MA
 images:
   - img/boston.gif

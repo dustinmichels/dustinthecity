@@ -84,15 +84,19 @@ body h1 {
   line-height: 40px; /* was 48 */
 }
 
-#single .geo-tip {
+/* #single .geo-tip {
   margin-top: 10px;
-}
+} */
 
 #single .geo-tags a {
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
   background: #f2f2f2;
   padding: 4px 7px;
   color: #8c8c8c;
   margin-right: 3px;
+  font-size: 0.9em;
 }
 
 #single .geo-tags a::before {
