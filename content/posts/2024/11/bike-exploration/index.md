@@ -2,10 +2,12 @@
 title: 'Project: Bike exploration animations'
 date: 2024-11-20
 tags:
-  - plot
   - python
   - bike
   - map
+  - QGIS
+  - animation
+  - data-viz
 geo:
   - Gothenburg, Sweden
   - Denver, CO
