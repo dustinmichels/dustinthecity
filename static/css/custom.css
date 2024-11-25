@@ -107,6 +107,10 @@ body h1 {
   color: #0366d6;
 }
 
+#single .tags a {
+  border-radius: 10px;
+}
+
 /* --------- */
 /* TAGS PAGE */
 
@@ -123,6 +127,10 @@ body h1 {
 
 #tags .geo-tags a:hover {
   color: #0366d6;
+}
+
+#tags .tag a {
+  border-radius: 10px;
 }
 
 /* --------- */
