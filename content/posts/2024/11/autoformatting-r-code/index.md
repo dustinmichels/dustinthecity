@@ -47,4 +47,8 @@ So the next best thing, for me, is to bind it to <kbd>Cmd</kbd>+<kbd>Shift</kbd>
 
 ![Screenshot of the RStudio keyboard shortcuts menu, where the styler command is visible.](img/shortcut.png)
 
-It's not exactly the same, but at least it's a single command that formats the entire document and doesn't get tripped up by markdown syntax. I run this periodically as I go and get great gratification out of watching everything snap into place.
+It's not exactly the same, but at least it's a single command that formats the entire document and doesn't get tripped up by markdown syntax. Styler is also not as aggressive as Black or Prettier, but it's the best solution I've found so far.
+
+I run this periodically as I go and get great gratification out of watching everything snap into place.
+
+![Example of running the formatter](img/format.gif)
