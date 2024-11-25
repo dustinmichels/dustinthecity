@@ -4,11 +4,11 @@ date: 2015-11-21
 tags: ['map', 'data-viz', 'digital-humanities']
 geo: ['Northfield, MN']
 images:
-  - img/boston.gif
+  - img/poop_map.png
 draft: false
 ---
 
-> NOTE: This is an old post! (2015) Re-posted from my old blog, [DustinsView](https://dustinsview.com/2015/the-poop-map-i-made/).
+> _Note_: This is an old post! (2015) Re-posted from my old blog, [DustinsView](https://dustinsview.com/2015/the-poop-map-i-made/).
 
 I discovered [CartoDB](https://cartodb.com/)— a free and open source web mapping tool– through a class I’m currently taking titled “[Hacking the Humanities](http://medhieval.com/hackinghumanities2015/).” Upon learning about Carto and other tools for visualizing/analyzing spatial data I developed a strong (and unfamiliar) desire to make digital maps.
 
@@ -20,7 +20,7 @@ Since October 16, I have painstakingly logged the GPS coordinates of my every po
 
 This cumulative torque map animates the appearance of the poops over time, and colors the more high-density poop areas more brightly. Unsurprisingly, the two most high density areas are [Farm House](https://apps.carleton.edu/admissions/locations/farm_house/) (my place of residence) and the [Gould Library](https://apps.carleton.edu/campus/library/) (my place of monastic asceticism) though some audacious poops can be spotted downtown–near the Blue Mondays Coffee Shop and Tandem Bagels– as well as near CANOE house, the Mini Bald Spot, and the Weitz.
 
-![An annotated, static depiction of the poop map.](https://dustinsview.com/wp-content/uploads/2015/11/annotated_poop_map.png)
+![An annotated, static depiction of the poop map.](img/poop_map.png)
 
 ## Moving Forward
 

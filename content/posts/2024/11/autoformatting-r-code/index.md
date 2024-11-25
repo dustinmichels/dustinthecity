@@ -7,7 +7,7 @@ tags:
   - MIT
   - data-science
 images:
-  - img/boston.gif
+  - img/format.gif
 draft: false
 ---
 
