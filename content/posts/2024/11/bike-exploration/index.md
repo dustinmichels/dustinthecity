@@ -30,11 +30,12 @@ I am currently auditing two courses at MIT which deal with spatial data and I've
   - [Denver](#denver)
   - [Boston](#boston)
 - [Why it matters](#why-it-matters)
-  - [Future work](#future-work)
+  - [Future ambitions](#future-ambitions)
 - [Procedure](#procedure)
   - [Getting the data](#getting-the-data)
   - [Removing straight lines](#removing-straight-lines)
   - [Making the animations](#making-the-animations)
+  - [Potential improvements](#potential-improvements)
 
 ## Results
 
@@ -66,21 +67,21 @@ I am currently auditing two courses at MIT which deal with spatial data and I've
 
 I think animated maps like these are great for motivating people to explore by bike. The [original post](https://www.reddit.com/r/dataisbeautiful/comments/f8nu0c/oc_this_is_how_londons_street_grid_reveals_using/) I saw certainly had that effect on me.
 
-A more typical (and informative) map would show routes drawn onto a basemap, but this more abstract representation puts the emphasis on discovery. There is no world outside of what you uncover through biking. The use of animation (as opposed to, for example, a heatmap of all routes) also emphasizes the idea of disovery. You have to lay down the routes one by one, day by day, slowly _revealing_ the city. It's a process.
+A more typical (and informative) map would show routes drawn onto a base map, but this more abstract representation puts the emphasis on discovery. There is no world outside of what you uncover through biking. The use of animation (as opposed to, for example, a heatmap of all routes) also emphasizes the idea of discovery. You have to lay down the routes one by one, day by day, slowly _revealing_ the city. It's a process.
 
 In the comment section of the original post, people call out the poster for biking on streets are closed.
 
 ![Reddit comment calling out the poster for biking on closed streets](img/reddit.png)
 
-It was (and still is) remarkable to me that they biked enough to draw a city map, clearly useable and legible to others.
+It was (and still is) remarkable to me that someone biked enough to draw a complete city map, clearly legible to others.
 
 In every city I have lived in since seeing that post, somewhere in the back of my mind mind this has been a goal of mine-- to bike enough that I could illuminate the whole city with my routes.
 
-### Future work
+### Future ambitions
 
-I would like to expand on this project by creating a reusable tool that others can use to make their own animations like this. Most of the pieces are in place, I would just need to replcae the QGIS step with a more programmatic solution. I may also want to use the strava API instead of relying on the bulk download.
+I would like to expand on this project by creating a reusable tool that others can use to make their own animations like this. Most of the pieces are in place, I would just need to replace the QGIS step with a Python solution, and also create some user interface components for searching for a city of interest, cropping the map, etc. In a web application context, I would most likely use the Strava API instead of relying on users to download and upload their own data.
 
-I am also interested in building these maps into a larger, interactive data dashboard that lets a user scroll through time and see total number of rides, total distance covered, percent of the city explored, and other metrics increase the grid gets filled in.
+I would be be interested in building these maps into a larger, interactive data dashboard that lets a user scroll through time and see total number of rides, total distance covered, percent of the city explored, and other metrics increase in sync with the expanding grid of routes. Some of this functionality already exists in other tools, like [wandrer.earth](https://wandrer.earth/).
 
 ## Procedure
 
@@ -136,3 +137,9 @@ For each city of interest, I filtered the table down and exported a Shapefile. I
 Before bringing data over QGIS, I also fuged the timestamps because I just wanted the lines to appear sequentially-- one after another-- not based on the actual time the rides occured. If the real timestamps are used there are pauses in the animation when I take days off.
 
 Finally I wrote some shell scripts that used `imageMagick` to crop and label the images, and `ffmpeg` to turn them into an animation.
+
+### Potential improvements
+
+One issue I ran into is the converse of the straight line problem. Sometimes I would leave the GPS tracker on while walking around a building, creating a bunch of little squiggles. I think this could be addressed by "down sampling" the data, removing points that are too close together. This would also make the data smaller and easier to store and process.
+
+I would also like to trying bring some geographic data in like rivers, lakes, and parks that could be added to the maps, to see if this adds some clarity without ruining the abstract nature of the animation.
