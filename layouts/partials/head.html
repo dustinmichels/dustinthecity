@@ -67,16 +67,15 @@
 {{ end }}
 
 
-<!-- Add social graph? -->
-{{ template "_internal/opengraph.html" . }}
-
-
 <!-- Add analytics with plausible -->
+<script
+  defer
+  data-domain="dustinthe.city"
+  data-api="/plausible-subdirectory/api/event"
+  src="/plausible-subdirectory/js/script.js"
+></script>
+
+<!-- Add social graph? -->
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
-  <script
-    defer
-    data-domain="dustinthe.city"
-    data-api="/plausible-subdirectory/api/event"
-    src="/plausible-subdirectory/js/script.js"
-  ></script>
+  {{ template "_internal/opengraph.html" . }}
 {{ end }}
