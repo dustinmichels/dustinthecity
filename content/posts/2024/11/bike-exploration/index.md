@@ -90,11 +90,11 @@ More detailed information can be found [on GitHub](https://github.com/dustinmich
 
 You can request to bulk download your data from Strava. They email you the whole dossier, including an `activities.csv` and an activities folder full of gpx and other data files for each activity. Here is a subset of columns from the `activities.csv` file.
 
-|     | Activity ID | Activity Date            | Activity Type | Activity Name | Distance | Filename                  |
-| --: | ----------: | :----------------------- | :------------ | :------------ | -------: | :------------------------ |
-|   0 |  2795045943 | Oct 17, 2019, 5:54:22 AM | Run           | Morning Run   |     5.05 | activities/2795045943.gpx |
-|   1 |  2805333349 | Oct 21, 2019, 7:26:09 AM | Run           | Morning Run   |    11.27 | activities/2805333349.gpx |
-|   2 |  2822930053 | Oct 28, 2019, 6:57:54 AM | Run           | Morning Run   |     4.84 | activities/2822930053.gpx |
+| Activity ID | Activity Date            | Activity Type | Activity Name | Distance | Filename                  |
+| ----------: | :----------------------- | :------------ | :------------ | -------: | :------------------------ |
+|  2795045943 | Oct 17, 2019, 5:54:22 AM | Run           | Morning Run   |     5.05 | activities/2795045943.gpx |
+|  2805333349 | Oct 21, 2019, 7:26:09 AM | Run           | Morning Run   |    11.27 | activities/2805333349.gpx |
+|  2822930053 | Oct 28, 2019, 6:57:54 AM | Run           | Morning Run   |     4.84 | activities/2822930053.gpx |
 
 Using Python, I filtered the table down to just activities of type "Ride," then tried to find the corresponding file and extract the route data as a list of lat/lon pairs. The files come in a variety of formats and some needed to be unzipped first using `gzip`.
 
@@ -113,11 +113,11 @@ The next step is to filter down geographically. I drew rough bounding boxes arou
 
 By the end of this I had a Geopandas dataframe with the original data plus a `geometry` column that contained the route data as a LineString object, and a `city` column that contained the city name.
 
-|     | Activity ID | Activity Date       | Activity Type | Activity Name     | Distance | geometry                                 | city       |
-| --: | ----------: | :------------------ | :------------ | :---------------- | -------: | :--------------------------------------- | :--------- |
-|   0 |  3261794450 | 2020-04-05 11:25:00 | Ride          | Sunday adventure  |    56.94 | LINESTRING (12.00393 57.66359, 12.003... | Gothenburg |
-|   1 |  3261837777 | 2020-04-04 14:00:00 | Ride          | To bike kitchen   |     6.49 | LINESTRING (12.00404 57.66368, 12.004... | Gothenburg |
-|   2 |  3261840551 | 2020-04-04 16:00:00 | Ride          | From bike kitchen |     6.52 | LINESTRING (11.94319 57.69958, 11.943... | Gothenburg |
+| Activity ID | Activity Date       | Activity Type | Activity Name     | Distance | geometry                                 | city       |
+| ----------: | :------------------ | :------------ | :---------------- | -------: | :--------------------------------------- | :--------- |
+|  3261794450 | 2020-04-05 11:25:00 | Ride          | Sunday adventure  |    56.94 | LINESTRING (12.00393 57.66359, 12.003... | Gothenburg |
+|  3261837777 | 2020-04-04 14:00:00 | Ride          | To bike kitchen   |     6.49 | LINESTRING (12.00404 57.66368, 12.004... | Gothenburg |
+|  3261840551 | 2020-04-04 16:00:00 | Ride          | From bike kitchen |     6.52 | LINESTRING (11.94319 57.69958, 11.943... | Gothenburg |
 
 ### Removing straight lines
 

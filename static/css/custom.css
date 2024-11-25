@@ -214,6 +214,8 @@ table {
   border-collapse: collapse;
   font-size: 0.75em;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 table tr:hover {
