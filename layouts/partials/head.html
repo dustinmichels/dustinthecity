@@ -13,9 +13,9 @@
     {{ end }}
   {{ end }}"
 />
-{{ hugo.Generator }}
+
 {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+{{ if eq hugo.Environment "production" }}
   <meta name="ROBOTS" content="INDEX, FOLLOW" />
 {{ else }}
   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
@@ -68,14 +68,19 @@
 
 
 <!-- Add analytics with plausible -->
-<script
-  defer
-  data-domain="dustinthe.city"
-  data-api="/plausible-subdirectory/api/event"
-  src="/plausible-subdirectory/js/script.js"
-></script>
+{{/* {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+*/}}
+{{ if eq hugo.Environment "production" }}
+  <script
+    defer
+    data-domain="dustinthe.city"
+    data-api="/plausible-subdirectory/api/event"
+    src="/plausible-subdirectory/js/script.js"
+  ></script>
+{{ end }}
+
 
 <!-- Add social graph? -->
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+{{ if eq hugo.Environment "production" }}
   {{ template "_internal/opengraph.html" . }}
 {{ end }}

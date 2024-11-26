@@ -1,3 +1,3 @@
-baseURL: "https://dustinthe.city/"
+baseURL: 'https://dustinthe.city/'
 params:
-  avatarLink: "https://dustinthe.city"
+  avatarLink: 'https://dustinthe.city'
