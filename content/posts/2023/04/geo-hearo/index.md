@@ -181,7 +181,7 @@ To fix this, I computed the quantiles of all the possible distances between coun
 
 What is the effect? The halfway point between 0-19935 is 9967, but the _median_ of all the distances between centroids is 7500. Treating 7500 as the halfway point makes it easier to distinguish between colors for smaller distances. It also changes the meaning of the colors. Now, a color halfway between "yellowgreen" and "darkgreen" represents a something like a guess that's the halfway best guess you could make.
 
-## Improvements
+## Future improvements
 
 The UI can be improved. Most urgently, the map is too small on mobile to be very useful. I think a globe that you can rotate would fit better into the space.
 
