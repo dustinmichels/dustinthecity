@@ -14,6 +14,8 @@ geo:
   - Boston, MA
 images:
   - img/boston.gif
+categories:
+  - project
 draft: false
 ---
 
