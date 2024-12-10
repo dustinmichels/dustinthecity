@@ -1,10 +1,14 @@
 <nav class="navigation">
   {{ if not .IsHome }}
-    <a class="home-button" href="{{ "/" | relURL }}">
+    <a class="" style="color: #4b764a" href="{{ "/" | relURL }}">
       <span class="arrow">←</span>{{ with .Site.Params.home }}
-        {{ . }}
+        <strong>
+          {{ . }}
+        </strong>
       {{ else }}
-        {{ i18n "home" }}
+        <strong>
+          {{ i18n "home" }}
+        </strong>
       {{ end }}</a
     >
   {{ end }}
