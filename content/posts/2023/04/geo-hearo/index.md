@@ -172,7 +172,6 @@ To fix this, I computed the quantiles of all the possible distances between coun
 ```js
   getColorFunction() {
     const q = this.computeDistanceQuantiles()
-    console.log('quantiles', q)
     return d3.scaleLinear(
       [q.max, q.q3, q.median, q.q1, q.min],
       ['#ffffcc', '#d9f0a3', '#addd8e', '#78c679', '#31a354']
