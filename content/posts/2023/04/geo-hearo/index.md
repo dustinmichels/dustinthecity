@@ -18,13 +18,11 @@ categories:
 
 > Updated: December, 2024.
 
-I created an audio-based geography game called [GeoHearo](https://geohearo.com/). When the game begins, a mystery country is chosen at random and you are presented with five radio stations to pan through. As you submit your guesses, the game tells you how close you are and which direction to go.
+I created an audio-based geography game called [GeoHearo](https://geohearo.com/). When the game begins, a mystery country is chosen at random and you are presented with five radio stations to pan through. As you submit your guesses, the game tells you how close you are and which direction to go. The map is provided as a visual aid; you can hover a country to check it's name, and your guessed countries are filled with a color that reflects proximity to the correct country.
 
 The game relies on your knowledge and challenges your preconceptions about the musical tastes and spoken languages of different countries. It can be used to build familiarity the countries of the world, where they lie, and what they sound like.
 
 ![Screenshot of geohearo game, after one guess.](./img/geohearo.png)
-
-The map is provided as a visual aid. You can hover a country to check it's name, and your guessed countries are filled with a color that reflects how close to correct.
 
 The game ends after five guesses or when the correct country is found. At that point, the names and specific locations of the radio stations are revealed and you can continue to listen or start again.
 
