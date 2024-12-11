@@ -1,6 +1,7 @@
 ---
 title: City Bike Tour with Jonah
 date: 2024-06-09
+draft: true
 tags:
   - biking
   - somerville-community-path
