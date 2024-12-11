@@ -11,6 +11,8 @@ tags:
 geo:
   - Somerville, MA
 description: 'While many concerns about bike lanes are couched in terms of accessibility, cars are also prohibitive for large segments of the population.'
+images:
+  - img/collage.jpg
 categories:
   - favorite
 ---
