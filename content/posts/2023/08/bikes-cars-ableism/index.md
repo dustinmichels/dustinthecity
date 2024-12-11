@@ -39,4 +39,4 @@ In addition to all the people already mentioned, others unable to drive include:
 
 There is no question that accessibility must be taken seriously when planning city streets, and amenities like handicap parking cannot be removed without ensuring the needs of those who rely on them are met. However, I reject appeals to maintain the status quo in the name of accessibility. These arguments are insufficiently examined, or occasionally even made in bad faith.
 
-Cars are not accessible to tens of millions of Americans, who deserve alternatives that are safe, convenient, and dignified. Bike infrastructure is a start.
+**Cars are not accessible to tens of millions of Americans, who deserve alternatives that are safe, convenient, and dignified. Bike infrastructure is a start.**
